@@ -53,9 +53,8 @@
 							<forwardSslSession>false</forwardSslSession>
 							<generateDefaultPublicUrl>false</generateDefaultPublicUrl>
 						</deploymentSettings>
-						<secureProperties>
-<!-- 							<key>mule-dev</key>
- -->							<anypoint.platform.client_id>777df98bcd084a75bfe4b973a9e53516</anypoint.platform.client_id>
+						<secureProperties>					
+							<anypoint.platform.client_id>777df98bcd084a75bfe4b973a9e53516</anypoint.platform.client_id>
 							<anypoint.platform.client_secret>AF10d59Ee8C64EFb85BCc8474b2aA7eD</anypoint.platform.client_secret>
 						</secureProperties>
 						<properties>
