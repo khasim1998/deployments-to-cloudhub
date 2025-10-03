@@ -6,7 +6,7 @@
 
 	<groupId>a62f6236-0b02-4e5f-a8eb-dc5e37aedb12</groupId>
 	<artifactId>deployments-to-cloudhub123</artifactId>
-	<version>1.0.3</version>
+	<version>1.0.2</version>
 	<packaging>mule-application</packaging>
 
 	<name>deployments-to-cloudhub</name>
@@ -71,7 +71,7 @@
 	<distributionManagement>
 		<repository>
 			<id>anypoint-exchange-v3</id>
-			<name>Corporate Repository</name>
+			<name>Anypoint Exchange</name>
 			<url>https://maven.anypoint.mulesoft.com/api/v3/organizations/a62f6236-0b02-4e5f-a8eb-dc5e37aedb12/maven</url>
 			<layout>default</layout>
 		</repository>
