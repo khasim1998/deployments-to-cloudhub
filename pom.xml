@@ -6,7 +6,7 @@
 
 	<groupId>a62f6236-0b02-4e5f-a8eb-dc5e37aedb12</groupId>
 	<artifactId>deployments-to-cloudhub123</artifactId>
-	<version>1.0.2</version>
+	<version>1.0.3</version>
 	<packaging>mule-application</packaging>
 
 	<name>deployments-to-cloudhub</name>
