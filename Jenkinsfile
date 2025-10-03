@@ -1,5 +1,6 @@
 pipeline {
     agent any
+
     stages {
         stage('Build') {
             steps {
@@ -7,19 +8,18 @@ pipeline {
                 bat 'mvn clean install'
             }
         }
+
         stage('Test') {
             steps {
                 echo 'Application is in Testing Phase'
                 bat 'mvn test'
             }
         }
+
         stage('Deploy to Cloudhub') {
-            environment {
-                ANYPOINT_CREDENTIALS = credentials('platform.credentials')
-            }
             steps {
-                echo 'Deploying Application to CloudHub'
-                bat 'mvn deploy -DmuleDeploy'
+                echo 'Deploying Application to CloudHub 2.0'
+                bat 'mvn clean deploy -DmuleDeploy'
             }
         }
     }
